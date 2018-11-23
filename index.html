@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hedgehog List App</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <script src="js/app.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <form id="new-item-form">
+        <div id="form-wrapper">
+          <div class="form-item">
+            <div class="label-and-input">
+              <label for="name" class="buttons">Name</label>
+              <input type="text" id="name" required/>
+            </div>
+          </div>
+
+          <div class="form-item">
+            <div class="label-and-input">
+              <label for="gene" class="buttons">Gene Name</label>
+              <input type="text" id="gene" required/>
+            </div>
+          </div>
+
+          <div class="form-item">
+            <div class="label-and-input">
+              <label for="type" class="buttons">Hedgehog Type</label>
+              <select id="type">
+                <option value="" disabled selected></option>
+                <option value="Real Actual Living Animal">Real Actual Living Animal</option>
+                <option value="Video Game Character">Video Game Character</option>
+                <option value="Inanimate Object">Inanimate Object</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <br></br>
+
+        <div class="form-item">
+          <div class="wrapper">
+            <input type="radio" id="blue" name="colours" value="blue">
+            <label for="blue">Blue</label>
+            <input type="radio" id="pinto" name="colours" value="pinto">
+            <label for="pinto">Pinto</label>
+            <input type="radio" id="albino" name="colours" value="albino">
+            <label for="albino">Albino</label>
+            <input type="radio" id="brown" name="colours" value="brown">
+            <label for="brown">Brown</label>
+          </div>
+        </div>
+
+        <br></br>
+        <div class="wrapper">
+          <input class="buttons" type="submit" value="Save New Hedgickle"/>
+        </div>
+      </form>
+    </div>
+
+
+
+    <div class="wrapper">
+      <button class="buttons">
+        <a id="delete-all">Delete All Hedgickles</a>
+      </button>
+    </div>
+
+    <h1>Hedgehogs List</h1>
+    <div id="hedgehogs-list"></div>
+  </body>
+</html>
