@@ -3,8 +3,25 @@
   color: Black;
 }
 
+#mainheading{
+      background-image: url("stolen_geometric_Hedgehog.png");
+      height: 200px;
+      width: 100%;
+    }
+
+#mainheading h1{  border: 3px solid white;
+  position: relative;
+  text-align: center;
+  top: 50px;
+  width: 800px;
+  height: 100px;
+  margin: 0 auto;
+  color: #3CA7F9;
+  font-weight: bold;
+}
+
 body {
-   background-image: url("twiglet5.png");
+   /* background-image: url("twiglet5.png"); */
    background-size: cover;
    background-repeat:   no-repeat;
    background-position: center center;
@@ -57,5 +74,6 @@ body {
   padding: 0.5rem 0.8rem;
   border: 2px solid #F1F3F4;
   border-radius: 5%;
-  background: #3CA7F9;
+  /* background: #3CA7F9; */
+  background-image: url("geometric_background.png");
 }
